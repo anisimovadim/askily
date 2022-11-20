@@ -44,7 +44,7 @@
 
                 <div class="buttons">
                     <a href="">Записаться</a>
-                    <a href="">Посмотреть программу</a>
+                    <a href="#programs">Посмотреть программу</a>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <div class="containare c1">
+    <div class="containare c1" id="programs">
         <div class="content">
             <div class="blockInfoH1">
                 <div class="programms">
@@ -85,24 +85,230 @@
                 </div>
             </div>
             <div class="block_Selectors">
-                <h3>Разработчик игр с нуля (6 месяцев)</h3>
-                <details class="blocks" open>
-                        <summary class="flex_items">
-                            <p>Базовый модуль</p>
-                            <img src="./assets/arrowSelector.svg" alt="">
+                <details class="blocks b">
+                        <summary class="flex_items" id="item_flex1">
+                            <p>Начало работы с Unity и C#</p>
+                            <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD1">
                         </summary>
-                        <div id="block_content">
-                        Какая то информайция
+                        <div class="contOpen">
+                            <div class="text">
+                                Установим и научимся пользоваться IDE для C# и Unity.
+                                Разберёмся в иерархии объектов и их компонентах.
+                                Погрузимся в C#, познакомимся с элементами программирования и паттернами ООП.
+                                Изучим Execution Order компонентов Unity.
+                                Научимся добавлять, удалять и искать компоненты.
+                                Остановимся подробнее на окне сцены, напишем несколько скриптов с асинхронным выполнением, а также поработаем с камерой.
+                                Научим компоненты реагировать на пользовательский ввод.
+                                Поэкспериментируем с физикой, научимся её контролировать.
+
+                                <br>В реальном времени соберём простую игру, используя только физику и перемещения.
+                            </div>
+                            <div class="elem">
+                                <div class="time">
+                                    <img src="./assets/clock.svg" alt="">
+                                    <p>13 часов теории</p>
+                                    <p>15 часов практики</p>
+                                </div>
+                                <div class="linerForTime"></div>
+                            </div>
+
+                        </div>
+
+                </details>
+                <div class="liner"></div>
+                <details class="blocks">
+                    <summary class="flex_items" id="item_flex2">
+                        <p>Углубленное изучение C#</p>
+                        <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD2">
+                    </summary>
+                    <div class="contOpen">
+                        <div class="text">
+                            Подробнее разберёмся в языке программирования C#.
+                            Изучим условные операторы, коллекции и ООП.
+                            Вспомним базовые принципы логики, добавим вариативности в работу скриптов.
+                            Научимся создавать массивы данных, разберём библиотеки коллекций C#.
+                            Напишем циклический код. Познакомимся с интерфейсами и модификаторами доступа.
+                            Расширим понятие ООП и напишем несколько наглядных объектно-ориентированных классов.
+                            Рассмотрим подробнее асинхронный код, изучим асинхронное программирование средствами C#.
+
+                            <br>Используя полученные знания, подготовим компоненты и классы в прототип RPG-игры.
+                        </div>
+                        <div class="elem">
+                            <div class="time">
+                                <img src="./assets/clock.svg" alt="">
+                                <p>18 часов теории</p>
+                                <p>17 часов практики</p>
+                            </div>
+                            <div class="linerForTime"></div>
+                        </div>
+
+                    </div>
+
+                </details>
+                <div class="liner"></div>
+                <details class="blocks">
+                    <summary class="flex_items" id="item_flex3">
+                        <p>Углубленное изучение Unity</p>
+                        <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD3">
+                    </summary>
+                    <div class="contOpen">
+                        <div class="text">
+                            Изучим основные ресурсы, используемые в Unity-проектах.
+                            Научимся создавать интерфейс.
+                            Изучим взаимодействие с экраном в Unity и освоим хитрости работы с экраном.
+                            Научимся создавать шаблоны компонентов, игровых объектов и их наследников.
+                            Изучим инструменты создания интерфейса в Unity. Разберёмся в видах Steering Behaviors.
+                            Поговорим о способах реализации AI у неиграбельных персонажей.
+                            Добавим в прототип RPG простых NPC с примитивным интеллектом.
+                            Сделаем заготовку под будущее расширение. Изучим бесплатные ресурсы в AssetStore.
+                            Подробнее остановимся на картинках и звуках.
+                            Научимся импортировать анимации и создавать свои в окне Animation.
+                        </div>
+                        <div class="elem">
+                            <div class="time">
+                                <img src="./assets/clock.svg" alt="">
+                                <p>29 часов теории</p>
+                                <p>17 часов практики</p>
+                            </div>
+                            <div class="linerForTime"></div>
+                        </div>
                     </div>
                 </details>
                 <div class="liner"></div>
-            </div>
-            <div class="block_Selectors">
-                <h3>Игровые движки (4 месяца)</h3>
-                <div class="blocks"></div>
+                <details class="blocks">
+                    <summary class="flex_items" id="item_flex4">
+                        <p>Разработка мобильных игр</p>
+                        <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD4">
+                    </summary>
+                    <div class="contOpen">
+                        <div class="text">
+                            Узнаем больше о создании мобильных игр.
+                            Научимся работать в команде.
+                            Изучим основные методы настройки баланса в мобильных играх и разберём механики,
+                            часто встречающиеся в гиперказуальных играх. Переработаем интерфейс инспектора в Unity.
+                            Разберём нюансы работы с репозиториями Unity-проектов и научимся с ними работать.
+                            Изучим основные способы заработка на мобильных играх, в том числе и гиперказуальных.
+                            <br>В реальном времени соберём прототип аркадной гонки.
+                        </div>
+                        <div class="elem">
+                            <div class="time">
+                                <img src="./assets/clock.svg" alt="">
+                                <p>29 часов теории</p>
+                                <p>17 часов практики</p>
+                            </div>
+                            <div class="linerForTime"></div>
+                        </div>
+
+                    </div>
+
+                </details>
+                <div class="liner"></div>
+                <details class="blocks">
+                    <summary class="flex_items" id="item_flex5">
+                        <p>Role-Playing Game</p>
+                        <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD5">
+                    </summary>
+                    <div class="contOpen">
+                        <div class="text">
+                            Финализируем прототип RPG. Добавим новые механики и возможности.
+                            Научим персонажей получать урон, восстанавливать здоровье и умирать.
+                            Добавим простую систему выбора цели, новые типы атак и способности персонажей.
+                            Научим персонажа разговаривать с союзными NPC. Подготовим возможность выбора вариантов ответа.
+                            Добавим возможность получения и выполнения заданий.
+                            Реализуем возможность выбора. Добавим уровни сложности и выбор роли игрового персонажа при запуске новой игры.
+                            Добавим предметы, возможность взаимодействия с ними и инвентарь.
+                            Добавим прототип интерфейса, минимально необходимый для RPG.
+                            Реализуем простое повышение уровней.
+                            Разработаем систему сохранения и загрузки игры.
+                            <br>В реальном времени соберём небольшой уровень для прототипа RPG.
+                        </div>
+                        <div class="elem">
+                            <div class="time">
+                                <img src="./assets/clock.svg" alt="">
+                                <p>64 часа теории</p>
+                                <p>16 часов практики</p>
+                            </div>
+                            <div class="linerForTime"></div>
+                        </div>
+
+                    </div>
+
+                </details>
+                <div class="liner"></div>
+                <details class="blocks">
+                    <summary class="flex_items" id="item_flex6">
+                        <p>Релиз игры</p>
+                        <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD6">
+                    </summary>
+                    <div class="contOpen">
+                        <div class="text">
+                            Углубим знания по подготовке игры к выпуску.
+                            Научимся локализовать игры, расширять и монетизировать через рекламу.
+                            Изучим мощный инструмент — рефлексию в C#.
+                            Разберём основные способы обучения игрока в гиперказуальных играх.
+                            Расширим UI игры, добавим всплывающие окна и подсказки.
+                            Изучим способы создания локализации в мобильных играх.
+                            Научимся добавлять push-уведомления в мобильные игры и встраивать рекламу.
+                        </div>
+                        <div class="elem">
+                            <div class="time">
+                                <img src="./assets/clock.svg" alt="">
+                                <p>10 часов теории</p>
+                                <p>13 часов практики</p>
+                            </div>
+                            <div class="linerForTime"></div>
+                        </div>
+
+                    </div>
+
+                </details>
+                <div class="liner"></div>
+                <details class="blocks">
+                    <summary class="flex_items" id="item_flex7">
+                        <p>Итоговый проект</p>
+                        <img src="./assets/arrowSelector.svg" alt="" class="closeD" id="imgD7">
+                    </summary>
+                    <div class="contOpen">
+                        <div class="text">
+                            Необходимо будет разработать прототип гиперказуальной игры на тему из предложенного списка с выполнением всех пунктов ТЗ.
+                            Казуальная игра отличается простыми правилами и не требует от пользователя особых умений.
+                            Вы сможете выбрать один из пяти предложенных вариантов ТЗ и создать собственную игру.
+                        </div>
+                        <div class="elem">
+                            <div class="time">
+                                <img src="./assets/clock.svg" alt="">
+                                <p>24 часа практики</p>
+                            </div>
+                            <div class="linerForTime"></div>
+                        </div>
+
+                    </div>
+
+                </details>
+                <div class="liner"></div>
             </div>
         </div>
-        
+    </div>
+    <div class="container company">
+        <div class="content">
+            <h3>Наши выпускники работают
+                <br>в ведущих компаниях</h3>
+
+            <div class="block_company" id="block_company">
+                <div class="gallery">
+                    <ul class="images">
+                        <li><img src="./assets/Lamoda_logo.svg" alt=""></li>
+                        <li><img src="./assets/skyeng.svg" alt=""></li>
+                        <li><img src="./assets/Ozon_logo_clear.svg" alt=""></li>
+                        <li><img src="./assets/VK_Full_Logo_(2021-present).svg" alt=""></li>
+                        <li><img src="./assets/Alfa-Bank.svg" alt=""></li>
+                        <li><img src="./assets/Kaspersky_logo.svg" alt=""></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
     </div>
     <script src="./main.js"></script>
 </body>

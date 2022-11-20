@@ -19,9 +19,12 @@ body::-webkit-scrollbar-thumb{
     border-radius: 3px;
 
 }
-
+.container.company{
+    background: #FFFFFF;
+}
 .container{
-    background:radial-gradient(38.59% 35.8% at 50% 54.01%, rgba(184, 0, 255, 0.51) 0%, rgba(69, 15, 96, 0.51) 54.69%, rgba(44, 9, 66, 0.51) 74.48%, rgba(13, 2, 27, 0.51) 100%) 400px -700px,url("./assets/mainIMGp.svg") 80% 300px, #0D021B center;
+    background:radial-gradient(38.59% 35.8% at 50% 54.01%, rgba(184, 0, 255, 0.51) 0%, rgba(69, 15, 96, 0.51) 54.69%, rgba(44, 9, 66, 0.51) 74.48%, rgba(13, 2, 27, 0.51) 100%) 400px -700px,url("./assets/mainIMGp.svg") 55vw 300px, #0D021B center;
+
     width: 100%;
     margin: auto;
     height: auto;
@@ -71,12 +74,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-}.circle{
-     width: 227px;
-     height:227px;
-     background: linear-gradient(179.86deg, rgba(0, 0, 0, 0.12) 0.12%, rgba(0, 0, 0, 0) 132.48%);
-     border-radius: 50%;
- }
+}
 .mainContent{
     width: 690px;
     margin-top: 240px;
@@ -139,10 +137,11 @@ a{
 .spikersBlock{
     z-index: 9999;
     color: white;
+    padding-bottom: 300px;
 
 }
 .spikeH{
-    margin-top: 315px;
+    margin-top: 215px;
     font-weight: 700;
     font-size: 53.015px;
     line-height: 63px;
@@ -217,7 +216,7 @@ p{
      color: #000000;
     text-shadow: 1px 0 0px #000000;
  }
-.block_Selectors .blocks{
+.block_Selectors .b{
     margin-top: 70px;
 }
 .flex_items{
@@ -230,19 +229,24 @@ p{
     letter-spacing: 0.065em;
 }
 .blocks{
-    padding: 27px 0;
+
     cursor: pointer;
 }
 .c1{
     margin-top: 90px;
+    margin-bottom: 90px;
 }
 .liner{
     width: 100%;
     border: 1px solid #000000;
 }
 .flex_items p{
+    padding: 27px 0;
     cursor: pointer;
-}
+}.openD{
+     transform: rotate(-180deg);
+     animation: 1s;
+ }
 .none{
     display: none;
 }
@@ -252,9 +256,70 @@ p{
 .active{
     display: block;
 }
+.contOpen{
+    display: flex;
+    justify-content: space-between;
+}
+.blocks div{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 27px;
+}.blocks div .text{
+    width: 65%;
+ }
+ .time{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }.time p:nth-child(2){
+    padding-right: 10px;
+   }
+
+.time p{
+    font-weight: 700;
+    font-size: 15.486px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+}
+.linerForTime{
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+.company h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.065em;
+    text-shadow: 1px 0px 0px #000;
+    margin-bottom: 100px;
+
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+}
+.images li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}.images li img{
+   width: 100%;
+ }
 @media screen and (min-width: 1441px){
     .container{
-        background:radial-gradient(38.59% 35.8% at 50% 54.01%, rgba(184, 0, 255, 0.51) 0%, rgba(69, 15, 96, 0.51) 54.69%, rgba(44, 9, 66, 0.51) 74.48%, rgba(13, 2, 27, 0.51) 100%) 500px -700px,url("./assets/mainIMGp.svg") 70% 300px, #0D021B center;
+        background:radial-gradient(38.59% 35.8% at 50% 54.01%, rgba(184, 0, 255, 0.51) 0%, rgba(69, 15, 96, 0.51) 54.69%, rgba(44, 9, 66, 0.51) 74.48%, rgba(13, 2, 27, 0.51) 100%) 500px -700px,url("./assets/mainIMGp.svg") 55vw 300px, #0D021B center;
         background-repeat: no-repeat;
     }
     .content{
