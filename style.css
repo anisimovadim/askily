@@ -74,7 +74,7 @@ a{
     top: 69px;
     left: 0;
     width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.16);;
+    border: 1px solid rgba(255, 255, 255, 0.16);
 }
 .circle_block{
     z-index: 9999;
@@ -318,7 +318,7 @@ p{
 }
 .images{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 50px;
     align-items: center;
