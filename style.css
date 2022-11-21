@@ -678,5 +678,103 @@ input{
     .lines_Menu{
         display: flex;
     }
+    .block_payment {
+        width: 90%;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+        padding-bottom: 50px;
+    }
+    .block_info {
+        width: 100%;
+        height: 50vw;
+        background: white;
+        border-radius: 6px;
+    }
+    .block_pay {
+        width: 100%;
+        height: 50vw;
+        background: #FFFFFF;
+        border-radius: 6px;
+    }
+    .mainContent {
+        width: 100%;
+        margin-top: 240px;
+        color: white;
+    }
+    .diagramms .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }.diagramms .content .txt {
+             color: white;
+             font-size: 2.2rem;
+             text-align: justify;
+     }
+    .diagram {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        gap: 10%;
+        width: 100%;
+        margin: auto;
+    }
+    .mainContent h1 {
+        font-weight: 500;
+        font-size: 87.5487px;
+        line-height: 85px;
+        letter-spacing: -0.01em;
+    }
+    .mainContent ul {
+        font-size: 30.5532px;
+    }
+    .buttons{
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .block_payment h3 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 24px;
+        letter-spacing: 0.065em;
+    }
+    .block_payment p {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 18px;
+        letter-spacing: 0.065em;
+    }
+    .block1 div {
+        font-weight: 700;
+        font-size: 42px;
+    }
+    .block1 div span {
+        font-size: 22px;
+        text-shadow: none;
+    }
+    .block_info {
+        width: 100%;
+        height: 54vw;
+        background: white;
+        border-radius: 6px;
+    }
+    input {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 3vw 1vh;
+    }
+    .block_pay {
+        width: 100%;
+        height: 70vw;
+    }
+    .block_pay p {
+        margin-top: 5%;
+    }
 
 }
